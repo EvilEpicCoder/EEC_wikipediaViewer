@@ -1,8 +1,114 @@
+body{
+	line-height: 14px;
+	font-family: 'Arial';
+	font-size: 12px;
+	padding-top: 4%;
+}
+p{
+	margin:7px;
+	padding:7px;
+	text-indent:20px;
+	text-align: justify;
+	font-family: 'Times New Roman';
+	font-size: 16px;
+	}
+	.section-text{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: left;
+		font-size: 12px;
+		background:#29B6F6;
+		border-radius:2px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		color:white;
+	}
+	.valmid{
+		vertical-align: middle;
+	}
+	a{
+		font-family: 'Times New Roman';
+		font-size: 18px;
+		color:white;
+	}
+.collapsed{
+	padding:5px;
+	font-size: 10px;
+	padding:0px;
+	line-height: 20px;
+	font-size: 20px;
+}
+h1{
+	line-height: 0px;
+	margin:0px;
+	padding:40px;
+	text-align:center;
+	color:white;
+	font-size: 40px;
+	text-indent:0px;
+	font-weight: bold;
+}
+h2{
+	margin:0px;
+	padding:20px;
+	text-align:center;
+	color:white;
+	font-size: 20px;
+	text-indent:0px;
+}
 .container{
-	border: 3px solid green;
 	margin-left:auto;
 	margin-top:1%;
 	margin-bottom:1%;
 	text-align:center;
-	width:98%;
+	width:50%;
+	background-color:white;
 }
+.inline-block{
+		display:inline-flex;
+		text-align:left;
+		font-size: 14px;
+}
+/* label color */
+	.input-field label {
+		color: #29B6F6;
+	}
+	label.active{
+		color: #29B6F6!important;
+	}
+
+	input.valid:not{
+    border-bottom: 1px solid #29B6F6;
+    -webkit-box-shadow: 0 1px 0 0 #29B6F6;
+    box-shadow: 0 1px 0 0 ##29B6F6;
+	}
+
+	/* label focus color */
+	.input-field input[type=text]:focus + label {
+		color: #29B6F6;
+	}
+	/* label underline focus color */
+	.input-field input[type=text]:focus {
+		border-bottom: 1px solid #29B6F6;
+		box-shadow: 0 1px 0 0 #29B6F6;
+		color:#29B6F6;
+		font-size: 20px;
+	}
+	/* valid color */
+	.input-field input[type=text].valid {
+		border-bottom: 1px solid #29B6F6;
+		box-shadow: 0 1px 0 0 #29B6F6;
+		color:#29B6F6;
+	}
+	/* invalid color */
+	.input-field input[type=text].invalid {
+		border-bottom: 1px solid #29B6F6;
+		box-shadow: 0 1px 0 0 #29B6F6;
+	}
+	.input-field .prefix.active {
+		color: #29B6F6;
+	}
+	label .active {
+		color: #29B6F6;
+	}
